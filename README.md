@@ -115,7 +115,7 @@ GITHUB_CLIENT_ID=your_github_oauth_client_id
 GITHUB_CLIENT_SECRET=your_github_oauth_client_secret
 PORT=5000
 
-# OPTIONAL if you use OpenAI in testgenerator:
+**OPTIONAL if you use OpenAI in testgenerator:**
 
 OPENAI_API_KEY=sk-...
 

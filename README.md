@@ -1,16 +1,23 @@
 # TEST_CASE_GENERATOR-
-Short summary / Why this exists
+**Short summary / Why this exists**
 When building software, writing tests is crucial but time-consuming. The Test Case Generator helps reduce friction by:
+
  .  Quickly scanning code in your GitHub repos,
  .  Proposing test-case summaries (what to test),
  .  Generating actual test code from a selected summary,
  . Optionally creating a pull request with the generated test file.
+ 
 This speeds up onboarding, improves test coverage, and gives developers a starting point for writing high-quality tests instead of starting from a blank file.
+
 **How this project helps (plain language)**
   . Saves developer time: auto-suggests tests and scaffolds test files.
+  
   . Standardizes initial tests so reviewers get consistent PRs.
+  
   . Works with your GitHub repositories so generated tests are easy to review and merge.
+  
 **Extensible:** the test-generation logic is isolated and can be replaced/enhanced (for example, call an LLM / OpenAI) without rewriting the UI or PR flow.
+
 **Features**
 GitHub OAuth login (OAuth flow)
 
@@ -25,17 +32,6 @@ Download generated test-cases as JSON
 Create a new branch + commit a generated test file and open a GitHub PR (optional / bonus)
 
 Clean UI with selection highlights (Tailwind-ready styling instructions included)
-
-Project Structure
-Your folders should now look like this:
-test-case-generator/
-     ├──client/              // React frontend
-     │   └── src/      
-     │       └── App.js       // main UI
-      └── server/
-             ├── index.js         // Express server 
-             └── .env             // for secrets
-
 
 **Quick start — Requirements**
 Node.js >= 16

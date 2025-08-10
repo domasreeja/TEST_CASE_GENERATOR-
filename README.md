@@ -16,6 +16,7 @@ This speeds up onboarding, improves test coverage, and gives developers a starti
 writing high-quality tests instead of starting from a blank file.
 
 **How this project helps (plain language)**
+
   . Saves developer time: auto-suggests tests and scaffolds test files.
   
   . Standardizes initial tests so reviewers get consistent PRs.
@@ -62,7 +63,7 @@ cd server
 
 npm install
 
-Install frontend dependencies
+I**Install frontend dependencies**
 
 bash:
 
@@ -152,7 +153,7 @@ cd server
 
 node index.js
 
-# or: npm start (if you have configured package.json scripts)
+or: npm start (if you have configured package.json scripts)
 
 **Start frontend**
 
@@ -164,7 +165,7 @@ npm start
 
 Open http://localhost:3000.
 
-**Usage (walkthrough)**
+**Usage (walkthrough):**
 
 Open http://localhost:3000.
 
@@ -186,7 +187,7 @@ Download it (JSON or file)
 
 Create a PR: set branch/file names or use automatic names and click Create Pull Request — backend will create branch, commit the test file and open a PR.
 
-**How test generation works (current implementation)**
+**How test generation works (current implementation):**
 
 There is a server/testgenerator.js module.
 
@@ -233,7 +234,7 @@ You can create a dummy/test repo just for trying this PR feature.
 
 Or you can test it on a fork of your repo.
 
-**Important notes & security**
+**Important notes & security :**
 
 Never commit .env or any tokens to git. Treat GitHub tokens and API keys as secrets.
 
@@ -243,7 +244,7 @@ If you open PRs using the generated token, you are committing to your repo — d
 
 When integrating a third-party LLM, be mindful of sending private code to external APIs — follow your organization’s security policy.
 
-**Future improvements / TODOs**
+**Future improvements / TODOs :**
 
 Replace demo testgenerator with a proper LLM prompt to generate better test ideas and test code.
 
@@ -259,7 +260,7 @@ Add permissions check: only operate on repos where user has push access.
 
 Support multiple test frameworks (Jest, Mocha, PyTest, Selenium, etc.) via configuration.
 
-**Contribution**
+**Contribution :**
 
 Pull requests welcome — please open PRs against the develop branch.
 

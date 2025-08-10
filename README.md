@@ -1,13 +1,19 @@
 # TEST_CASE_GENERATOR-
+
 **Short summary / Why this exists**
+
 When building software, writing tests is crucial but time-consuming. The Test Case Generator helps reduce friction by:
 
  .  Quickly scanning code in your GitHub repos,
+ 
  .  Proposing test-case summaries (what to test),
+ 
  .  Generating actual test code from a selected summary,
+ 
  . Optionally creating a pull request with the generated test file.
  
-This speeds up onboarding, improves test coverage, and gives developers a starting point for writing high-quality tests instead of starting from a blank file.
+This speeds up onboarding, improves test coverage, and gives developers a starting point for 
+writing high-quality tests instead of starting from a blank file.
 
 **How this project helps (plain language)**
   . Saves developer time: auto-suggests tests and scaffolds test files.

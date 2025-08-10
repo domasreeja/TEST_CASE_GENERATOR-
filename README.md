@@ -28,16 +28,13 @@ Clean UI with selection highlights (Tailwind-ready styling instructions included
 
 Project Structure
 Your folders should now look like this:
-
-cpp
-Copy code
 test-case-generator/
-├── client/              // React frontend
-│   └── src/
-│       └── App.js       // main UI
-└── server/
-    ├── index.js         // Express server
-    └── .env             // for secrets
+     ├──client/              // React frontend
+     │   └── src/      
+     │       └── App.js       // main UI
+      └── server/
+             ├── index.js         // Express server 
+             └── .env             // for secrets
 
 
 **Quick start — Requirements**
